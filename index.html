@@ -1,8 +1,57 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Rivera | Portfolio</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #38bdf8; }
+        p { font-size: 1.1rem; color: #94a3b8; line-height: 1.6; }
+        .links { margin-top: 2rem; }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: #f8fafc;
+            text-decoration: none;
+            border: 1px solid #38bdf8;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: #38bdf8; color: #0f172a; }
+        .skills { margin-top: 1.5rem; font-size: 0.9rem; color: #7dd3fc; }
+    </style>
 </head>
-
 <body>
-    <div>Hola Mundo!</div>
+    <div class="container">
+        <h1>Adrian Rivera</h1>
+        <p>Estudiante de Ingeniería de Software en <b>UNMSM</b>.</p>
+        <p>Especializado en Backend, SQL e Infraestructura. Certificado en Scrum Fundamentals.</p>
+        
+        <div class="skills">
+            Python • SQL • Linux • Cloud & Automation
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/tu-usuario" class="btn" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/adrian-rivera-unmsm" class="btn" target="_blank">LinkedIn</a>
+            <a href="mailto:adrian.rivera@unmsm.edu.pe" class="btn">Contacto</a>
+        </div>
+    </div>
 </body>
+</html>
